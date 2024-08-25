@@ -33,9 +33,10 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/paldilip202/Real-Time-Document-Editor.git
+ 
+    git clone https://github.com/paldilip202/Real-Time-Document-Editor.git
 
-cd real-time-document-editor
+    cd real-time-document-editor
 
 ### 2. Set Up Docker
 
@@ -43,14 +44,14 @@ cd real-time-document-editor
 
 * Build the Docker images for the backend and Redis:
 
-docker-compose build
+      docker-compose build
 
 
  #### 2. Start Docker Containers:
 
- * Start all services defined in the     docker-compose.yml file:
+ * Start all services defined in the docker-compose.yml file:
 
-   docker-compose up
+       docker-compose up
 
 This will start MongoDB, Redis, and the backend server. The backend server will be available at http://localhost:3001.
 
